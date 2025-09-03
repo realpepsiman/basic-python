@@ -3,8 +3,8 @@ import sys
 # This reads all of stdin and converts it into a list of integers.
 # This *only* works if there are no non-integers in the input.
 # You can learn how to deal with errors later...
-""" x = [int(a) for a in sys.stdin.read().split()] """
-x = [1, 2, 3, 4, 5, 6]
+x = [int(a) for a in sys.stdin.read().split()]
+
 # if you have a list of integers you want to write to stdout in the same
 # space separated format, you cannot use print(x) since that will add the
 # square brackets and the commas, but you can use
